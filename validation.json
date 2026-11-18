@@ -1,0 +1,45 @@
+{
+  "valid": true,
+  "sha256": "83076352ce0ba9802c1fcf44bff8223a28f2c20961a39ea206fe703b72bf0e1f",
+  "encoded_bytes": 1960895,
+  "sprite_version": 2,
+  "width": 1536,
+  "height": 2288,
+  "frames_per_row": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6,
+    8,
+    8
+  ],
+  "checks": {
+    "structural": true,
+    "pet_quality": true,
+    "blind_direction_review": true,
+    "pets_preflight": true
+  },
+  "jump": {
+    "idle_baseline": 198,
+    "jump_baselines": [
+      198,
+      182,
+      157,
+      177,
+      198
+    ],
+    "airborne_lift_pixels": 41,
+    "landing_delta_pixels": 0
+  },
+  "reviewed_warnings": [
+    "look direction 022.5 accepted with a reviewed warning",
+    "look direction 112.5 accepted with a reviewed warning",
+    "look direction 202.5 accepted with a reviewed warning",
+    "067.5->090 diff is a local outlier (955 pixels vs neighbor average 593)"
+  ]
+}
